@@ -1,0 +1,21 @@
+.hotel-container {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 20px;
+    margin: 20px 100px;
+}
+@media only screen and (max-width:786px){
+    .hotel-container {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    } 
+}
+@media only screen and (min-width:786px) and (max-width:989px){
+    .hotel-container {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+       
+    } 
+}
+
